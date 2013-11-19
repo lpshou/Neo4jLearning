@@ -35,4 +35,5 @@ Neo4j有两种访问模式：服务器模式和嵌入模式[参考](http://docs.
 vim conf/neo4j-server.peoperties
 #取消注释
 org.neo4j.server.webserver.address=0.0.0.0
-```然后运行bin/neo4j start 即可，可以通过http://192.168.0.187:7474/browser/ 访问。
+```  
+5.运行bin/neo4j start 即可，可以通过http://192.168.0.187:7474/browser/ 访问。
