@@ -1,6 +1,6 @@
-Neo4j有两种访问模式：服务器模式和嵌入模式[参考](http://docs.neo4j.org.cn/deployment-scenarios.html)，下面主要讲windows下这两种模式的配置与访问示例
+Neo4j有两种访问模式：服务器模式和嵌入模式[参考](http://docs.neo4j.org.cn/deployment-scenarios.html)，下面主要讲windows和ubuntu下这两种模式的配置与访问示例
 
-##1 Windows下Neo4j服务器模式安装与示例
+##1.1 Windows下Neo4j服务器模式安装与示例
 ####安装：
 
 1.下载Neo4j，我下载的版本是：neo4j-community_windows_2_0_0-M06.exe [地址](http://www.neo4j.org/download)；  
@@ -17,7 +17,7 @@ Neo4j有两种访问模式：服务器模式和嵌入模式[参考](http://docs.
 ####参考  
 [ java连接Neo4j服务器](http://blog.csdn.net/adam_wzs/article/details/8622250)  
 
-##2 Windows下neo4j嵌入模式
+##1.2 Windows下neo4j嵌入模式
 ####示例：
 1.下载neo4j-community-2.0.0-M06-windows.zip[地址](http://www.neo4j.org/download);  
 2.解压缩，然后导入其中lib到项目中；  
@@ -25,4 +25,8 @@ Neo4j有两种访问模式：服务器模式和嵌入模式[参考](http://docs.
 4.具体示例,参考（[neo4j的入门示例](http://blog.csdn.net/cfeibiao/article/details/6842944)）;
 ####参考  
 
-[neo4j的入门示例](http://blog.csdn.net/cfeibiao/article/details/6842944)
+[neo4j的入门示例](http://blog.csdn.net/cfeibiao/article/details/6842944)  
+##2 Ubuntu下neo4j的服务器模式安装
+1.下载neo4j-enterprise-2.0.0-M06-unix.tar.gz[地址](http://www.neo4j.org/download)；  
+2.Ubuntu配置jdk1.7；
+3.解压缩neo4j-enterprise-2.0.0-M06-unix.tar.gz后进入目录，然后运行bin/neo4j start 即可，可以通过http://192.168.0.187:7474/browser/访问。
