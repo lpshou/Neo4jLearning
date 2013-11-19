@@ -26,7 +26,7 @@ Neo4j有两种访问模式：服务器模式和嵌入模式[参考](http://docs.
 ####参考  
 
 [neo4j的入门示例](http://blog.csdn.net/cfeibiao/article/details/6842944)  
-##2 Ubuntu下neo4j的服务器模式安装
-1.下载neo4j-enterprise-2.0.0-M06-unix.tar.gz[地址](http://www.neo4j.org/download)；  
-2.Ubuntu配置jdk1.7；
+##2 Ubuntu下neo4j的服务器模式安装  
+1.下载neo4j-enterprise-2.0.0-M06-unix.tar.gz[地址](http://www.neo4j.org/download)；    
+2.Ubuntu配置jdk1.7；  
 3.解压缩neo4j-enterprise-2.0.0-M06-unix.tar.gz后进入目录，然后运行bin/neo4j start 即可，可以通过http://192.168.0.187:7474/browser/访问。
